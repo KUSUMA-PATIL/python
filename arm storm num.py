@@ -1,0 +1,12 @@
+n=153
+c=3
+s=0
+temp=n
+while(n>0):
+    rem=n%10
+    s=s+rem**3
+    n=n//10
+if(s==temp):
+    print("True")
+else:
+    print("False")
